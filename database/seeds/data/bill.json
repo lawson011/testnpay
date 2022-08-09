@@ -1,0 +1,276 @@
+[
+    {
+            "billers_category_id" : 1,
+            "identifier" : "MTN VTU",
+            "billers" : "MTN",
+            "code" : "MTN",
+            "operation" : "VTU",
+            "status" : 1,
+            "verification" : 0
+    },
+    {
+        "billers_category_id" : 1,
+        "identifier" : "GLO VTU",
+        "billers" : "GLO",
+        "code" : "GLO   ",
+        "operation" : "VTU",
+        "status" : 1,
+        "verification" : 0
+    },
+    {
+        "billers_category_id" : 1,
+        "identifier" : "ETISALAT VTU",
+        "billers" : "ETISALAT",
+        "code" : "ETISALAT   ",
+        "operation" : "VTU",
+        "status" : 1,
+        "verification" : 0
+    },
+    {
+        "billers_category_id" : 1,
+        "identifier" : "AIRTEL POSTPAID VTU",
+        "billers" : "AIRTEL",
+        "code" : "AIRTEL   ",
+        "operation" : "POSTPAID VTU",
+        "status" : 1,
+        "verification" : 0
+    },
+    {
+        "billers_category_id" : 1,
+        "identifier" : "AIRTEL PREPAID VTU",
+        "billers" : "AIRTEL",
+        "code" : "AIRTEL   ",
+        "operation" : "PREPAID VTU",
+        "status" : 1,
+        "verification" : 0
+    },
+    {
+        "billers_category_id": 1,
+        "identifier": "VISAFONE",
+        "billers": "VISAFONE",
+        "code": "VISAFONE",
+        "operation": "VTU",
+        "status": 1,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN EKO Prepaid",
+        "billers": "PHCN EKO",
+        "code": "PHCNEKO",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN IKEJA Prepaid",
+        "billers": "PHCN IKEJA",
+        "code": "PHCNIKJ",
+        "operation": "PayBill Prepaid",
+        "status": 0,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN KANO Prepaid",
+        "billers": "PHCN KANO",
+        "code": "PHCNKAN",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN KADUNA Prepaid",
+        "billers": "PHCN KADUNA",
+        "code": "PHCNKAD",
+        "operation": "PayBill Prepaid",
+        "status": 0,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN JOS Prepaid",
+        "billers": "PHCNJOS",
+        "code": "PHCN JOS",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN EKO Postpaid",
+        "billers": "PHCN EKO",
+        "code": "PHCNPPEKO",
+        "operation": "PayBill Postpaid",
+        "status": 1,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN IKEJA Postpaid",
+        "billers": "PHCN IKEJA",
+        "code": "PHCNPPIKJ",
+        "operation": "PayBill Postpaid",
+        "status": 1,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN KANO Postpaid",
+        "billers": "PHCN KANO",
+        "code": "PHCNPPKAN",
+        "operation": "PayBill Postpaid",
+        "status": 1,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN KADUNA Postpaid",
+        "billers": "PHCN KADUNA",
+        "code": "PHCNPPKAD",
+        "operation": "PayBill Postpaid",
+        "status": 0,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN JOS Postpaid",
+        "billers": "PHCN JOS",
+        "code": "PHCNPPJOS",
+        "operation": "PayBill Postpaid",
+        "status": 1,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN Abuja Prepaid",
+        "billers": "PHCN Abuja",
+        "code": "PHCNABJ",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN IBADAN Prepaid",
+        "billers": "PHCN IBADAN",
+        "code": "PHCNIBD",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN ENUGU Prepaid",
+        "billers": "PHCN ENUGU",
+        "code": "PHCNENU",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    },
+    {
+        "billers_category_id": 2,
+        "identifier": "PHCN ENUGU Postpaid",
+        "billers": "PHCN ENUGU",
+        "code": "PHCNPPENU",
+        "operation": "PayBill Postpaid",
+        "status": 1,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 3,
+        "identifier": "DSTV",
+        "billers": "DSTV",
+        "code": "DSTV",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    },
+    {
+        "billers_category_id": 3,
+        "identifier": "GOTV",
+        "billers": "GOTV",
+        "code": "GOTV",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    },
+    {
+        "billers_category_id": 3,
+        "identifier": "GOTV",
+        "billers": "COWA TV",
+        "code": "COWATV",
+        "operation": "PayBill Prepaid",
+        "status": 0,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 3,
+        "identifier": "STARTIMES",
+        "billers": "STARTIMES",
+        "code": "STARTIMES",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 4,
+        "identifier": "SWIFT Postpaid",
+        "billers": "SWIFT",
+        "code": "STARTIMES",
+        "operation": "PayBill Postpaid",
+        "status": 0,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 4,
+        "identifier": "SMILE Postpaid",
+        "billers": "SMILE",
+        "code": "SMILE",
+        "operation": "PayBill Postpaid",
+        "status": 0,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 4,
+        "identifier": "SWIFT Prepaid",
+        "billers": "SWIFT",
+        "code": "SWIFT",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 4,
+        "identifier": "SMILE Prepaid",
+        "billers": "SMILE",
+        "code": "SMILE",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 0
+    },
+    {
+        "billers_category_id": 4,
+        "identifier": "SPECTRANET Prepaid",
+        "billers": "SPECTRANET",
+        "code": "SPECTRANET",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    },
+    {
+        "billers_category_id": 5,
+        "identifier": "LCC Prepaid",
+        "billers": "LCC",
+        "code": "LCC",
+        "operation": "PayBill Prepaid",
+        "status": 1,
+        "verification": 1
+    }
+]
+
+
+
+

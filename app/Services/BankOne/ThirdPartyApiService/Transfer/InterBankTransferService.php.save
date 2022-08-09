@@ -1,0 +1,106 @@
+<?php
+
+
+namespace App\Services\BankOne\ThirdPartyApiService\Transfer;
+
+use App\Services\BankOne\BaseService;
+use App\Services\BankOne\ThirdPartyApiService\Account\Traits\AccountValidation;
+use App\Jobs\TransferDbSaveJob;
+
+class InterBankTransferService extends BaseService
+{
+    use AccountValidation;
+
+    private const interBankTransfer = '/Transfer/RunTransaction';
+    private const appZoneAccount = '02230012010015676';
+    private const phoneNumber = '09066582734';
+    public $responseData = [];
+
+    /**
+     * TODO add a dynamic way to change the phonenumber
+     * @param $params
+     * @return mixed
+     */
+    public function sendGet($params)
+    {
+        //convert the funds to kobo to trade with it
+        $amount = $params['amount'] * 100;
+        $reference =  substr($params['NIPSessionID'],0,12);
+
+        $this->url = env('BANK_ONE_THIRD_PARTY_API').self::interBankTransfer.'/'.$amount
+            .'/'.self::appZoneAccount.'/'.$params['payer']
+            .'/'.$params['payerAccountNumber'].'/'.$params['receiverAccountNumber']
+            .'/'.$params['receiverAccountType'].'/'.$params['receiverBankCode']
+            .'/'.env('NUTURE_ADMIN_MOBILE_NUMBER').'/'.$params['receiverName']
+            .'/'.$reference.'/'.$params['NIPSessionID']
+            .'/'.env('BANK_ONE_INSTITUTION_TOKEN');
+
+            logger('Interbank Transfer'.$this->url);
+        return $this->get($this->url);
+    }
+
+    /**
+     * @param $params
+     * @return \Illuminate\Http\JsonResponse
+     */
+    public function send($params)
+    {
+        //perform transaction here
+        $data = $this->sendGet($params);
+
+        //get user account details
+        $userDetails = getUserAccountDetails([
+            'AccountNo' => $params['payerAccountNumber'],
+            'referenceID' => 'ref_'.getUniqueToken(8)
+        ]);
+
+        //run validation on useraccount details
+        $accountValidation = $this->runAccountValidation($userDetails,$params['amount']);
+
+        //validation fails to meet criteria
+        if(isset($accountValidation['boolean']) && $accountValidation['boolean']){
+            return $this->response->getErrorResource([
+                'message' => $userDetails['message'] ?? 'An error has occured'
+            ]);
+        }
+
+        //dd($data);
+
+        if($data['IsSuccessFul']){
+            $this->dispatchDatabaseProcess($params);
+
+            return $this->response->getSuccessResource([
+                'message' => $data['ResponseMessage']
+            ]);
+        }
+        else{
+            logger($data);
+        }
+
+
+        return $this->response->getErrorResource([
+            'message' => $data['ResponseMessage']
+        ]);
+    }
+
+    /**
+     * @param $params
+     */
+    public function dispatchDatabaseProcess($params): void
+    {
+        dispatch(new TransferDbSaveJob([
+            'customer_id' => auth()->user()->id,
+            'transaction_reference' => $params['NIPSessionID'],
+            'nip_session' => $params['NIPSessionID'],
+            'amount' => $params['amount'],
+            'sender_account_number' => $params['payerAccountNumber'],
+            'receiver_account_number' => $params['receiverAccountNumber'],
+            'narration' => $params['Narration'],
+            'transaction_type' => 'nip',
+            'channel' => $params['channel'],
+            'device' => $params['device'],
+            'bank' => $params['receiverBankCode'],
+            'status' => 1
+        ]));
+    }
+}

@@ -1,0 +1,154 @@
+[
+	{
+		"id" : 1,
+		"bank_name" : "Access Bank Plc",
+		"bank_name_short" : null,
+		"sort_code" : "044150149",
+		"bank_image" : "bank_icon/accessbank.png",
+		"cbn_code" : "044"
+	},
+	{
+		"id" : 3,
+		"bank_name" : "Ecobank Nigeria Plc",
+		"bank_name_short" : null,
+		"sort_code" : "050150311",
+		"bank_image" : "bank_icon/ecobank.png",
+		"cbn_code" : "050"
+	},
+	{
+		"id" : 4,
+		"bank_name" : "Enterprise Bank (Previously Spring Bank)",
+		"bank_name_short" : null,
+		"sort_code" : "084150015",
+		"bank_image" : "bank_icon/enterprisebank.jpeg",
+		"cbn_code" : "084"
+	},
+	{
+		"id" : 6,
+		"bank_name" : "Fidelity Bank Plc",
+		"bank_name_short" : null,
+		"sort_code" : "070150003",
+		"bank_image" : "bank_icon/fidelitybank.png",
+		"cbn_code" : "070"
+	},
+	{
+		"id" : 7,
+		"bank_name" : "First Bank Of Nigeria Plc",
+		"bank_name_short" : "FBN",
+		"sort_code" : "011152303",
+		"bank_image" : "bank_icon/firstbank.png",
+		"cbn_code" : "011"
+	},
+	{
+		"id" : 8,
+		"bank_name" : "First City Monument Bank Plc",
+		"bank_name_short" : "FCMB",
+		"sort_code" : "214150018",
+		"bank_image" : "bank_icon/fcmbbank.png",
+		"cbn_code" : "214"
+	},
+	{
+		"id" : 10,
+		"bank_name" : "Guaranty Trust Bank Plc",
+		"bank_name_short" : "GTB",
+		"sort_code" : "058152052",
+		"bank_image" : "bank_icon/gt_bank.png",
+		"cbn_code" : "058"
+	},
+	{
+		"id" : 11,
+		"bank_name" : "Keystone Bank (Previously Bank Phb)",
+		"bank_name_short" : null,
+		"sort_code" : "082150017",
+		"bank_image" : "bank_icon/keystone.jfif",
+		"cbn_code" : "082"
+	},
+	{
+		"id" : 12,
+		"bank_name" : "Mainstreet Bank (Previously Afribank)",
+		"bank_name_short" : null,
+		"sort_code" : "014150030",
+		"bank_image" : "bank_icon_mIBwyTh",
+		"cbn_code" : "014"
+	},
+	{
+		"id" : 15,
+		"bank_name" : "Skye Bank Plc",
+		"bank_name_short" : null,
+		"sort_code" : "076151006",
+		"bank_image" : "bank_icon/skyebank.jfif",
+		"cbn_code" : "076"
+	},
+	{
+		"id" : 16,
+		"bank_name" : "Stanbic-IBTC Bank Plc",
+		"bank_name_short" : null,
+		"sort_code" : "221159522",
+		"bank_image" : "bank_icon_tDZTk2X",
+		"cbn_code" : "039"
+	},
+	{
+		"id" : 18,
+		"bank_name" : "Sterling Bank Plc",
+		"bank_name_short" : null,
+		"sort_code" : "232150029",
+		"bank_image" : "bank_icon/Sterling-Bank_logo.png",
+		"cbn_code" : "232"
+	},
+	{
+		"id" : 19,
+		"bank_name" : "United Bank For Africa Plc",
+		"bank_name_short" : "UBA",
+		"sort_code" : "033154282",
+		"bank_image" : "bank_icon/ubabank.jfif",
+		"cbn_code" : "033"
+	},
+	{
+		"id" : 20,
+		"bank_name" : "Union Bank Of Nigeria Plc",
+		"bank_name_short" : null,
+		"sort_code" : "032156825",
+		"bank_image" : "bank_icon_KUa08RS",
+		"cbn_code" : "032"
+	},
+	{
+		"id" : 21,
+		"bank_name" : "Unity Bank Plc",
+		"bank_name_short" : null,
+		"sort_code" : "215082334",
+		"bank_image" : "bank_icon/unitybank.png",
+		"cbn_code" : "215"
+	},
+	{
+		"id" : 22,
+		"bank_name" : "Wema Bank Plc",
+		"bank_name_short" : null,
+		"sort_code" : "035150103",
+		"bank_image" : "bank_icon/wemabank.png",
+		"cbn_code" : "035"
+	},
+	{
+		"id" : 23,
+		"bank_name" : "Zenith Bank Plc",
+		"bank_name_short" : null,
+		"sort_code" : "057150013",
+		"bank_image" : "bank_icon/zenithbank.png",
+		"cbn_code" : "057"
+	},
+	{
+		"id" : 24,
+		"bank_name" : "Heritage Bank",
+		"bank_name_short" : null,
+		"sort_code" : null,
+		"bank_image" : "",
+		"cbn_code" : "030"
+	},
+	{
+		"id" : 25,
+		"bank_name" : "Jaiz Bank",
+		"bank_name_short" : null,
+		"sort_code" : null,
+		"bank_image" : "",
+		"cbn_code" : "301"
+	}
+]

@@ -1,0 +1,186 @@
+
+body {
+    background-color: black;
+}
+.container {
+    min-height: 1080.55pt;
+    width: 376pt;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box1 {
+    height: 400.17pt;
+    width: 375pt;
+}
+.top {
+display: flex;
+
+}
+
+.element {
+    padding-left: 63pt;
+    padding-bottom: 5pt;
+}
+
+.box2 {
+    background-image: url(images/middle-alt-01.png);
+    height: 457.389pt;
+    width: 375pt;
+}
+.textelement2 {
+    display: flex;
+}
+
+.text {
+width: 95%;
+
+}
+
+.element2 {
+    width: 10%;
+    padding-top: 10%
+}
+
+.box3 {
+    height: 188.642pt;
+    width: 375pt;
+}
+
+.logo {
+   width: 50%;
+   height: 110pt;
+   padding-left: 25pt;
+}
+
+.element {
+    width: 50%;
+}
+
+.list {
+    padding-bottom: 1pt;
+}
+
+.box1 h1 {
+    padding-left: 35pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 19pt;
+}
+.illustration {
+    padding-left: 40pt;
+}
+
+ .box1 h2 {
+    padding-left: 35pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 12.5pt;
+ }
+
+ .box1 h3 {
+    padding-left: 35pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13pt;
+ }
+
+ .box1 p {
+    padding-left: 35pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+ }
+
+ .text p {
+    padding-right: 45pt;
+    padding-bottom: pt;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 0pt;
+    line-height: 11pt;
+    font-size: 7pt;
+
+ }
+
+ .box2 h1 {
+    padding-left: 35pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 10pt;
+    padding-top: 20pt;
+    padding-bottom: 5pt;
+}
+
+.box2 h1 {
+    padding-left: 90pt;
+}
+.box2 img {
+    padding-left: 40pt;
+}
+.box3 p{
+    padding-left: 35pt;
+    font-size: 7pt;
+}
+
+.text2 h1 {
+    padding-left: 30pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 550;
+    font-size: 12pt;
+    padding-bottom: 50pt;
+    line-height: 5pt;
+}
+
+.wrappersocial {
+    display: flex;
+    height: 18pt;
+    padding-left: 5pt;
+
+}
+.social {
+  padding-top: 3pt;
+  width: 25pt;
+  padding-left: 5pt;
+  align-content: space-between;
+}
+
+.text3 p {
+    padding-left: 35pt;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 7pt;
+}
+
+.wrappersocial1 {
+    height: 10pt;
+    width: 100pt;
+    padding-left: 270pt;
+    padding-top: 8pt;
+}
+
+.app1 {
+    padding-right: 10pt;
+}
+
+.foot {
+    padding-left: 35pt;
+    padding-bottom: 50pt;
+}
+
+.foot {
+    display: flex;
+}
+
+.foot {
+    width: 70%;
+    height: 100pt;
+    background-image: url(images/footer-01.png);
+    margin-left: 35pt;
+}
+
+.app {
+    padding-left: 220pt;
+    padding-top: 37pt;
+
+}

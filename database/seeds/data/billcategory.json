@@ -1,0 +1,17 @@
+[
+    {
+        "identifier" : "Airtime"
+    },
+    {
+        "identifier" : "Electricity"
+    },
+    {
+        "identifier" : "Tv"
+    },
+    {
+        "identifier" : "Internet"
+    },
+    {
+        "identifier" : "Toll Payment"
+    }
+]
